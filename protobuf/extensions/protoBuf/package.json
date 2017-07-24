@@ -1,0 +1,16 @@
+{
+	"name": "egret",
+	"version": "4.0.3",
+	"modules": [
+		{
+			"name": "Protobuf",
+			"description": "Protobuf",
+			"files": [
+			  "protobuf.js",
+			  "protobuf.min.js",
+			  "protobuf.d.ts"
+			],
+			"root": "src"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+syntax = "proto3"; 
+package Test;
+
+
+message Message1 {
+	int32 ID   = 1;      // 消息ID
+	bytes MSG  = 2;	  // 消息内容Bytes(Protobuff)
+}
+
+
+//登录信息  MsgID : 100
+message Login1 {
+	  string SID 		= 1;			//  SessionID
+	  int32 RID 		= 2;			//
+	  float GPS_LNG   	= 3;			//  经度
+	  float GPS_LAT   	= 4;			//  纬度
+	  string openid 	= 5;
+	  string token      = 6;
+}
